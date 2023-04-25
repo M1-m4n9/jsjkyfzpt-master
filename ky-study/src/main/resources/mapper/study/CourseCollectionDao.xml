@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sicnu.study.dao.CourseCollectionDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.sicnu.study.entity.CourseCollectionEntity" id="courseCollectionMap">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="coverUrl" column="cover_url"/>
+        <result property="introduction" column="introduction"/>
+        <result property="type" column="type"/>
+<!--        <result property="classification" column="classification"/>-->
+        <result property="collectionClassificationId" column="collection_classification_id"/>
+<!--        <result property=""-->
+        <result property="likeCount" column="like_count"/>
+        <result property="playCount" column="play_count"/>
+        <result property="shareCount" column="share_count"/>
+        <result property="collectionCount" column="collection_count"/>
+        <result property="commentCount" column="comment_count"/>
+        <result property="courseDuration" column="course_duration"/>
+        <result property="uid" column="uid"/>
+        <result property="createTime" column="create_time"/>
+        <result property="score" column="score"/>
+        <result property="isDeleted" column="is_deleted"/>
+    </resultMap>
+
+
+</mapper>

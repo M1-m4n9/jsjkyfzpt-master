@@ -1,0 +1,22 @@
+spring:
+  session:
+    store-type: redis
+  redis:
+    lettuce:
+      pool:
+        max-wait: -1
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+#    host: 192.168.56.10
+    host: 127.0.0.1
+    port: 6379
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: ky-auth
+
+ky:
+  key:
+    pubKeyPath: key/rsa_key.pub
+    priKeyPath: key/rsa_key

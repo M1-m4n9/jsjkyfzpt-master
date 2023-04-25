@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sicnu.log.dao.OptLogDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.sicnu.log.dto.OptLogDto" id="OptLogMap">
+        <result property="id" column="id"/>
+        <result property="classPath" column="class_path"/>
+        <result property="methodName" column="method_name"/>
+        <result property="params" column="params"/>
+        <result property="description" column="description"/>
+        <result property="type" column="type"/>
+        <result property="requestIp" column="request_ip"/>
+        <result property="requestUri" column="request_uri"/>
+        <result property="httpMethod" column="http_method"/>
+        <result property="ua" column="ua"/>
+        <result property="startTime" column="start_time"/>
+        <result property="endTime" column="end_time"/>
+        <result property="consumingTime" column="consuming_time"/>
+        <result property="type" column="type"/>
+        <result property="exDesc" column="ex_desc"/>
+        <result property="exDetail" column="ex_detail"/>
+        <result property="result" column="result"/>
+        <result property="userId" column="user_id"/>
+        <result property="userName" column="user_name"/>
+    </resultMap>
+
+
+</mapper>

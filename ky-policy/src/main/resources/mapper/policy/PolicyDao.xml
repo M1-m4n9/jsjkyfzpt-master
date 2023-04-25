@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sicnu.policy.dao.PolicyDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.sicnu.policy.entity.PolicyEntity" id="policyMap">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="province" column="province"/>
+        <result property="sourceUrl" column="source_url"/>
+        <result property="upTime" column="up_time"/>
+    </resultMap>
+
+    <select id="getCur2Ids" resultType="integer">
+        select id from p_policy order by up_time desc limit 0,20
+    </select>
+
+    <select id="listIdsAndNotIn" resultType="integer">
+        select id from p_policy where id not in
+        <foreach collection="list" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+        order by RAND() limit 5
+    </select>
+
+</mapper>

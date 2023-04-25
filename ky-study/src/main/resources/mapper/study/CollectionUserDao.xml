@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sicnu.study.dao.CollectionUserDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.sicnu.study.entity.CollectionUserEntity" id="collectionUserMap">
+        <result property="id" column="id"/>
+        <result property="uid" column="uid"/>
+        <result property="collectionId" column="collection_id"/>
+        <result property="liked" column="liked"/>
+        <result property="collected" column="collected"/>
+        <result property="collectionType" column="collection_type"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+
+
+</mapper>

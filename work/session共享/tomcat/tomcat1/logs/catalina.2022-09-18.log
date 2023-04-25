@@ -1,0 +1,442 @@
+18-Sep-2022 16:55:57.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 16:55:57.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 16:55:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 16:55:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 16:55:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 16:55:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 16:55:57.108 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 16:55:57.108 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 16:55:57.108 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 16:55:57.128 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 16:55:57.395 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 16:55:57.418 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 807 ms
+18-Sep-2022 16:55:57.447 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 16:55:57.447 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 16:55:57.471 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 16:55:57.898 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[275]毫秒。
+18-Sep-2022 16:55:57.981 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[511]毫秒内完成
+18-Sep-2022 16:55:57.981 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 16:55:58.196 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[215]毫秒内完成
+18-Sep-2022 16:55:58.196 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 16:55:58.212 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[16]毫秒内完成
+18-Sep-2022 16:55:58.212 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 16:55:58.237 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[25]毫秒内完成
+18-Sep-2022 16:55:58.238 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 16:55:58.250 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[12]毫秒内完成
+18-Sep-2022 16:55:58.253 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 16:55:58.317 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 908 ms
+18-Sep-2022 17:15:52.516 信息 [Thread-3] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-Sep-2022 17:15:52.760 信息 [Thread-3] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-Sep-2022 17:15:52.777 信息 [Thread-3] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-Sep-2022 17:15:52.788 信息 [Thread-3] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-Sep-2022 18:11:46.873 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 18:11:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 18:11:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 18:11:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 18:11:46.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 18:11:46.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 18:11:46.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 18:11:46.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 18:11:46.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 18:11:46.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:11:46.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:11:46.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 18:11:46.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 18:11:46.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 18:11:46.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 18:11:46.882 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 18:11:46.883 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:11:46.883 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:11:46.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 18:11:46.884 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 18:11:46.885 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 18:11:46.885 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 18:11:46.889 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 18:11:46.933 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 18:11:46.947 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 412 ms
+18-Sep-2022 18:11:46.968 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 18:11:46.969 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 18:11:46.975 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal 群集即将启动
+18-Sep-2022 18:11:47.316 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind 服务器套接字接收器绑定到：[/192.168.56.1:4000]
+18-Sep-2022 18:11:47.323 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket 设置集群多播超时时间：[500]
+18-Sep-2022 18:11:47.325 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[4]
+18-Sep-2022 18:11:47.520 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded 添加同步成员：[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=315171, securePort=-1, UDP Port=-1, id={-61 95 118 -84 -59 -79 64 -99 -117 -81 25 85 -112 -29 9 -56 }, payload={}, command={}, domain={}]]
+18-Sep-2022 18:11:48.336 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[4]
+18-Sep-2022 18:11:48.338 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[8]
+18-Sep-2022 18:11:48.344 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool 已创建缓冲池，最大大小为：[104857600]字节，类型为：[org.apache.catalina.tribes.io.BufferPool15Impl]
+18-Sep-2022 18:11:49.347 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[8]
+18-Sep-2022 18:11:49.349 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer 只有做为 host cluster 的子元素是才生效
+18-Sep-2022 18:11:49.366 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 18:11:49.529 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[161]毫秒内完成
+18-Sep-2022 18:11:49.532 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 18:11:49.719 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[187]毫秒内完成
+18-Sep-2022 18:11:49.721 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 18:11:49.753 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[32]毫秒内完成
+18-Sep-2022 18:11:49.754 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 18:11:49.771 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[17]毫秒内完成
+18-Sep-2022 18:11:49.771 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 18:11:49.787 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[16]毫秒内完成
+18-Sep-2022 18:11:49.792 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve 启动
+18-Sep-2022 18:11:49.795 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 18:11:49.804 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2857 ms
+18-Sep-2022 18:13:15.959 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-Sep-2022 18:13:16.198 信息 [Thread-6] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-Sep-2022 18:13:16.198 信息 [Thread-6] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve停止
+18-Sep-2022 18:13:16.221 信息 [Thread-6] org.apache.catalina.ha.deploy.FarmWarDeployer.stop 群集FarmWarDeployer已停止。
+18-Sep-2022 18:13:16.330 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-Sep-2022 18:13:16.346 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-Sep-2022 18:19:45.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 18:19:45.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 18:19:45.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 18:19:45.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 18:19:45.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 18:19:45.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 18:19:45.648 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 18:19:45.648 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 18:19:45.648 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 18:19:45.648 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:19:45.648 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:19:45.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 18:19:45.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 18:19:45.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 18:19:45.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 18:19:45.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 18:19:45.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:19:45.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:19:45.651 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 18:19:45.651 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 18:19:45.652 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 18:19:45.653 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 18:19:45.657 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 18:19:45.708 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 18:19:45.723 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 428 ms
+18-Sep-2022 18:19:45.743 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 18:19:45.744 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 18:19:45.749 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal 群集即将启动
+18-Sep-2022 18:19:46.106 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind 服务器套接字接收器绑定到：[/192.168.56.1:4000]
+18-Sep-2022 18:19:46.113 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket 设置集群多播超时时间：[500]
+18-Sep-2022 18:19:46.115 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[4]
+18-Sep-2022 18:19:47.119 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[4]
+18-Sep-2022 18:19:47.121 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[8]
+18-Sep-2022 18:19:48.126 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[8]
+18-Sep-2022 18:19:48.128 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer 只有做为 host cluster 的子元素是才生效
+18-Sep-2022 18:19:48.138 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 18:19:48.311 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[172]毫秒内完成
+18-Sep-2022 18:19:48.312 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 18:19:48.502 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[190]毫秒内完成
+18-Sep-2022 18:19:48.503 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 18:19:48.521 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[18]毫秒内完成
+18-Sep-2022 18:19:48.522 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 18:19:48.539 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[17]毫秒内完成
+18-Sep-2022 18:19:48.539 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 18:19:48.569 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[29]毫秒内完成
+18-Sep-2022 18:19:48.574 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve 启动
+18-Sep-2022 18:19:48.576 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 18:19:48.589 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2865 ms
+18-Sep-2022 18:19:56.252 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool 已创建缓冲池，最大大小为：[104857600]字节，类型为：[org.apache.catalina.tribes.io.BufferPool15Impl]
+18-Sep-2022 18:19:57.050 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded 添加同步成员：[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=1017, securePort=-1, UDP Port=-1, id={69 23 4 13 -19 115 74 42 -94 42 115 -41 -71 -49 -6 93 }, payload={}, command={}, domain={}]]
+18-Sep-2022 18:25:22.809 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-Sep-2022 18:25:23.042 信息 [Thread-6] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-Sep-2022 18:25:23.043 信息 [Thread-6] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve停止
+18-Sep-2022 18:25:23.073 信息 [Thread-6] org.apache.catalina.ha.deploy.FarmWarDeployer.stop 群集FarmWarDeployer已停止。
+18-Sep-2022 18:25:23.179 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-Sep-2022 18:25:23.196 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-Sep-2022 18:25:41.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 18:25:41.034 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 18:25:41.034 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 18:25:41.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 18:25:41.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 18:25:41.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 18:25:41.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 18:25:41.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 18:25:41.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 18:25:41.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:25:41.036 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:25:41.036 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 18:25:41.036 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 18:25:41.036 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 18:25:41.036 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 18:25:41.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 18:25:41.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:25:41.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:25:41.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 18:25:41.038 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 18:25:41.039 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 18:25:41.039 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 18:25:41.043 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 18:25:41.080 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 18:25:41.096 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 399 ms
+18-Sep-2022 18:25:41.117 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 18:25:41.117 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 18:25:41.123 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal 群集即将启动
+18-Sep-2022 18:25:41.463 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind 服务器套接字接收器绑定到：[/192.168.56.1:4000]
+18-Sep-2022 18:25:41.471 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket 设置集群多播超时时间：[500]
+18-Sep-2022 18:25:41.474 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[4]
+18-Sep-2022 18:25:42.477 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[4]
+18-Sep-2022 18:25:42.479 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[8]
+18-Sep-2022 18:25:43.486 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[8]
+18-Sep-2022 18:25:43.488 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer 只有做为 host cluster 的子元素是才生效
+18-Sep-2022 18:25:43.498 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 18:25:43.670 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[170]毫秒内完成
+18-Sep-2022 18:25:43.672 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 18:25:43.850 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[178]毫秒内完成
+18-Sep-2022 18:25:43.852 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 18:25:43.869 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[17]毫秒内完成
+18-Sep-2022 18:25:43.870 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 18:25:43.886 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[16]毫秒内完成
+18-Sep-2022 18:25:43.887 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 18:25:43.911 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[24]毫秒内完成
+18-Sep-2022 18:25:43.915 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve 启动
+18-Sep-2022 18:25:43.918 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 18:25:43.927 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2830 ms
+18-Sep-2022 18:32:04.318 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+18-Sep-2022 18:32:04.318 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 已开始重新加载名为[]的上下文
+18-Sep-2022 18:32:04.334 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.ha.tcp.SimpleTcpCluster.registerManager 连接器 [org.apache.catalina.session.StandardManager[]] 不能继承 ClusterManager，除非集群被停止。
+18-Sep-2022 18:32:04.341 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 已完成重新加载名为的上下文
+18-Sep-2022 18:33:09.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 18:33:09.311 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 18:33:09.311 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 18:33:09.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 18:33:09.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 18:33:09.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 18:33:09.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 18:33:09.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 18:33:09.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 18:33:09.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:33:09.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:33:09.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 18:33:09.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 18:33:09.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 18:33:09.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 18:33:09.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 18:33:09.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:33:09.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 18:33:09.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 18:33:09.316 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 18:33:09.316 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 18:33:09.317 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 18:33:09.321 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 18:33:09.358 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 18:33:09.372 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 404 ms
+18-Sep-2022 18:33:09.392 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 18:33:09.392 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 18:33:09.398 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal 群集即将启动
+18-Sep-2022 18:33:09.754 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind 服务器套接字接收器绑定到：[/192.168.56.1:4000]
+18-Sep-2022 18:33:09.761 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket 设置集群多播超时时间：[500]
+18-Sep-2022 18:33:09.763 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[4]
+18-Sep-2022 18:33:10.233 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded 添加同步成员：[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=10154, securePort=-1, UDP Port=-1, id={-12 -118 88 -113 -28 113 64 14 -71 -94 -23 -116 -124 14 51 -74 }, payload={}, command={}, domain={}]]
+18-Sep-2022 18:33:10.766 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[4]
+18-Sep-2022 18:33:10.767 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[8]
+18-Sep-2022 18:33:10.774 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool 已创建缓冲池，最大大小为：[104857600]字节，类型为：[org.apache.catalina.tribes.io.BufferPool15Impl]
+18-Sep-2022 18:33:11.776 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[8]
+18-Sep-2022 18:33:11.778 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer 只有做为 host cluster 的子元素是才生效
+18-Sep-2022 18:33:11.785 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 18:33:11.946 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[159]毫秒内完成
+18-Sep-2022 18:33:11.947 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 18:33:12.122 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[174]毫秒内完成
+18-Sep-2022 18:33:12.123 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 18:33:12.139 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[17]毫秒内完成
+18-Sep-2022 18:33:12.140 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 18:33:12.157 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[17]毫秒内完成
+18-Sep-2022 18:33:12.157 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 18:33:12.174 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal 将管理器[localhost#]注册到名为[Catalina]的集群元素[Engine]
+18-Sep-2022 18:33:12.174 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal 在[localhost#]启动群集管理器
+18-Sep-2022 18:33:12.180 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions 管理器[localhost#]，正在从[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=11670, securePort=-1, UDP Port=-1, id={-12 -118 88 -113 -28 113 64 14 -71 -94 -23 -116 -124 14 51 -74 }, payload={}, command={}, domain={}]]请求会话状态。如果在[60]秒内未收到会话状态，则此操作将超时
+18-Sep-2022 18:33:12.286 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions 管理器[localhost#]；在[22-9-18 下午6:33]发送的会话状态在[110]毫秒内收到。
+18-Sep-2022 18:33:12.288 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[131]毫秒内完成
+18-Sep-2022 18:33:12.288 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve 启动
+18-Sep-2022 18:33:12.290 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 18:33:12.298 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2925 ms
+18-Sep-2022 19:09:09.523 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-Sep-2022 19:09:09.752 信息 [Thread-6] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-Sep-2022 19:09:09.752 信息 [Thread-6] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve停止
+18-Sep-2022 19:09:09.767 信息 [localhost-startStop-2] org.apache.catalina.ha.session.DeltaManager.stopInternal 管理器[localhost#]关闭时使会话过期
+18-Sep-2022 19:09:09.789 信息 [Thread-6] org.apache.catalina.ha.deploy.FarmWarDeployer.stop 群集FarmWarDeployer已停止。
+18-Sep-2022 19:09:09.899 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-Sep-2022 19:09:09.916 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-Sep-2022 19:21:53.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 19:21:53.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 19:21:53.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 19:21:53.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 19:21:53.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 19:21:53.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 19:21:53.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 19:21:53.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 19:21:53.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 19:21:53.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 19:21:53.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 19:21:53.344 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 19:21:53.344 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 19:21:53.344 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 19:21:53.344 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 19:21:53.345 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 19:21:53.345 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 19:21:53.345 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 19:21:53.346 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 19:21:53.346 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 19:21:53.347 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 19:21:53.347 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 19:21:53.351 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 19:21:53.539 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 19:21:53.568 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 911 ms
+18-Sep-2022 19:21:53.600 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 19:21:53.600 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 19:21:53.605 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal 群集即将启动
+18-Sep-2022 19:21:54.005 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind 服务器套接字接收器绑定到：[/192.168.56.1:4000]
+18-Sep-2022 19:21:54.017 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket 设置集群多播超时时间：[500]
+18-Sep-2022 19:21:54.019 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[4]
+18-Sep-2022 19:21:55.034 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[4]
+18-Sep-2022 19:21:55.036 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[8]
+18-Sep-2022 19:21:56.047 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[8]
+18-Sep-2022 19:21:56.049 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer 只有做为 host cluster 的子元素是才生效
+18-Sep-2022 19:21:56.060 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 19:21:56.269 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[206]毫秒内完成
+18-Sep-2022 19:21:56.269 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 19:21:56.992 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[723]毫秒内完成
+18-Sep-2022 19:21:56.994 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 19:21:57.018 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[24]毫秒内完成
+18-Sep-2022 19:21:57.018 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 19:21:57.044 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[26]毫秒内完成
+18-Sep-2022 19:21:57.044 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 19:21:57.063 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal 将管理器[localhost#]注册到名为[Catalina]的集群元素[Engine]
+18-Sep-2022 19:21:57.063 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal 在[localhost#]启动群集管理器
+18-Sep-2022 19:21:57.064 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions 管理器[localhost#]：正在跳过状态传输。群集组中没有活动的成员。
+18-Sep-2022 19:21:57.065 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[21]毫秒内完成
+18-Sep-2022 19:21:57.066 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve 启动
+18-Sep-2022 19:21:57.070 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 19:21:57.080 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3512 ms
+18-Sep-2022 19:22:06.226 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool 已创建缓冲池，最大大小为：[104857600]字节，类型为：[org.apache.catalina.tribes.io.BufferPool15Impl]
+18-Sep-2022 19:22:06.799 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded 添加同步成员：[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=1013, securePort=-1, UDP Port=-1, id={-83 43 97 24 93 94 64 74 -81 115 59 12 -33 65 -111 -103 }, payload={}, command={}, domain={}]]
+18-Sep-2022 20:12:19.925 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+18-Sep-2022 20:12:19.926 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 已开始重新加载名为[]的上下文
+18-Sep-2022 20:12:19.927 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.ha.session.DeltaManager.stopInternal 管理器[localhost#]关闭时使会话过期
+18-Sep-2022 20:12:20.068 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 已完成重新加载名为的上下文
+18-Sep-2022 20:13:01.501 信息 [Membership-MemberDisappeared.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared 收到成员消失:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=3055717, securePort=-1, UDP Port=-1, id={-83 43 97 24 93 94 64 74 -81 115 59 12 -33 65 -111 -103 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+18-Sep-2022 20:13:03.161 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-Sep-2022 20:13:03.386 信息 [Thread-6] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-Sep-2022 20:13:03.387 信息 [Thread-6] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve停止
+18-Sep-2022 20:13:03.407 信息 [Thread-6] org.apache.catalina.ha.deploy.FarmWarDeployer.stop 群集FarmWarDeployer已停止。
+18-Sep-2022 20:13:03.519 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-Sep-2022 20:13:03.537 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+18-Sep-2022 20:13:32.018 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 20:13:32.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 20:13:32.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 20:13:32.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 20:13:32.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 20:13:32.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 20:13:32.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 20:13:32.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 20:13:32.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 20:13:32.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:13:32.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:13:32.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 20:13:32.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 20:13:32.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 20:13:32.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 20:13:32.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 20:13:32.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:13:32.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:13:32.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 20:13:32.041 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 20:13:32.042 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 20:13:32.043 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 20:13:32.047 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 20:13:32.217 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 20:13:32.232 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 759 ms
+18-Sep-2022 20:13:32.255 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 20:13:32.255 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 20:13:32.261 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal 群集即将启动
+18-Sep-2022 20:13:32.609 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind 服务器套接字接收器绑定到：[/192.168.56.1:4000]
+18-Sep-2022 20:13:32.616 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket 设置集群多播超时时间：[500]
+18-Sep-2022 20:13:32.617 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[4]
+18-Sep-2022 20:13:33.623 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[4]
+18-Sep-2022 20:13:33.625 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[8]
+18-Sep-2022 20:13:34.634 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[8]
+18-Sep-2022 20:13:34.636 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer 只有做为 host cluster 的子元素是才生效
+18-Sep-2022 20:13:34.646 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 20:13:34.827 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[180]毫秒内完成
+18-Sep-2022 20:13:34.827 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 20:13:35.622 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[794]毫秒内完成
+18-Sep-2022 20:13:35.622 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 20:13:35.648 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[26]毫秒内完成
+18-Sep-2022 20:13:35.649 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 20:13:35.675 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[26]毫秒内完成
+18-Sep-2022 20:13:35.676 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 20:13:35.689 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[13]毫秒内完成
+18-Sep-2022 20:13:35.694 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve 启动
+18-Sep-2022 20:13:35.698 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 20:13:35.709 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3477 ms
+18-Sep-2022 20:13:40.749 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool 已创建缓冲池，最大大小为：[104857600]字节，类型为：[org.apache.catalina.tribes.io.BufferPool15Impl]
+18-Sep-2022 20:13:41.313 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded 添加同步成员：[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=1014, securePort=-1, UDP Port=-1, id={-12 -118 18 13 35 -33 71 25 -116 -18 -87 124 56 0 -76 -58 }, payload={}, command={}, domain={}]]
+18-Sep-2022 20:31:22.089 信息 [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared (:收到的membermissed[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=1058750, securePort=-1, UDP Port=-1, id={-12 -118 18 13 35 -33 71 25 -116 -18 -87 124 56 0 -76 -58 }, payload={}, command={}, domain={}]]消息。将验证。
+18-Sep-2022 20:31:23.101 信息 [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared 认证完成。成员消失[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=1058750, securePort=-1, UDP Port=-1, id={-12 -118 18 13 35 -33 71 25 -116 -18 -87 124 56 0 -76 -58 }, payload={}, command={}, domain={}]]
+18-Sep-2022 20:31:23.101 信息 [Membership-MemberExpired.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared 收到成员消失:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=1058750, securePort=-1, UDP Port=-1, id={-12 -118 18 13 35 -33 71 25 -116 -18 -87 124 56 0 -76 -58 }, payload={}, command={}, domain={}]]
+18-Sep-2022 20:31:50.177 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+18-Sep-2022 20:31:50.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+18-Sep-2022 20:31:50.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+18-Sep-2022 20:31:50.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+18-Sep-2022 20:31:50.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+18-Sep-2022 20:31:50.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+18-Sep-2022 20:31:50.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\JDK\java_jdk\java-1.8.0-openjdk-1.8.0.282-1.b08.dev.redhat.windows.x86_64\jre
+18-Sep-2022 20:31:50.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_282-b08
+18-Sep-2022 20:31:50.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Red Hat, Inc.
+18-Sep-2022 20:31:50.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:31:50.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:31:50.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\wzd-work\tomcat\tomcat1\conf\logging.properties
+18-Sep-2022 20:31:50.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2022 20:31:50.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2022 20:31:50.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2022 20:31:50.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Sep-2022 20:31:50.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:31:50.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\wzd-work\tomcat\tomcat1
+18-Sep-2022 20:31:50.187 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\wzd-work\tomcat\tomcat1\temp
+18-Sep-2022 20:31:50.187 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+18-Sep-2022 20:31:50.188 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+18-Sep-2022 20:31:50.189 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+18-Sep-2022 20:31:50.193 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+18-Sep-2022 20:31:50.238 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Sep-2022 20:31:50.253 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 409 ms
+18-Sep-2022 20:31:50.273 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Sep-2022 20:31:50.273 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+18-Sep-2022 20:31:50.280 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal 群集即将启动
+18-Sep-2022 20:31:50.633 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind 服务器套接字接收器绑定到：[/192.168.56.1:4000]
+18-Sep-2022 20:31:50.639 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket 设置集群多播超时时间：[500]
+18-Sep-2022 20:31:50.641 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[4]
+18-Sep-2022 20:31:51.648 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[4]
+18-Sep-2022 20:31:51.650 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠[1000]毫秒后启动连接集群，启动登记：[8]
+18-Sep-2022 20:31:52.657 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers 休眠完毕，成员已连接，启动等级：[8]
+18-Sep-2022 20:31:52.657 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer 只有做为 host cluster 的子元素是才生效
+18-Sep-2022 20:31:52.657 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\docs]
+18-Sep-2022 20:31:52.813 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\docs]的部署已在[156]毫秒内完成
+18-Sep-2022 20:31:52.829 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\examples]
+18-Sep-2022 20:31:53.001 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\examples]的部署已在[172]毫秒内完成
+18-Sep-2022 20:31:53.001 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\host-manager]
+18-Sep-2022 20:31:53.016 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\host-manager]的部署已在[15]毫秒内完成
+18-Sep-2022 20:31:53.016 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\manager]
+18-Sep-2022 20:31:53.032 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\manager]的部署已在[16]毫秒内完成
+18-Sep-2022 20:31:53.032 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\wzd-work\tomcat\tomcat1\webapps\ROOT]
+18-Sep-2022 20:31:53.048 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\wzd-work\tomcat\tomcat1\webapps\ROOT]的部署已在[16]毫秒内完成
+18-Sep-2022 20:31:53.063 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve 启动
+18-Sep-2022 20:31:53.063 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Sep-2022 20:31:53.063 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2822 ms
+18-Sep-2022 20:32:06.826 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool 已创建缓冲池，最大大小为：[104857600]字节，类型为：[org.apache.catalina.tribes.io.BufferPool15Impl]
+18-Sep-2022 20:32:07.651 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded 添加同步成员：[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 56, 1}:4001,{192, 168, 56, 1},4001, alive=1028, securePort=-1, UDP Port=-1, id={47 -1 -33 -20 83 96 68 -8 -112 -81 -89 103 103 -19 -112 -12 }, payload={}, command={}, domain={}]]
+18-Sep-2022 21:57:40.247 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-Sep-2022 21:57:40.467 信息 [Thread-6] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-Sep-2022 21:57:40.467 信息 [Thread-6] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve停止
+18-Sep-2022 21:57:40.498 信息 [Thread-6] org.apache.catalina.ha.deploy.FarmWarDeployer.stop 群集FarmWarDeployer已停止。
+18-Sep-2022 21:57:40.608 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-Sep-2022 21:57:40.623 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]

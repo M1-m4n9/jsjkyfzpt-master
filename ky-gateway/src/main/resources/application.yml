@@ -1,0 +1,72 @@
+server:
+  port: 88
+spring:
+  application:
+    name: ky-gateway
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: ky_login
+          uri: lb://ky-auth
+          predicates:
+            - Path=/api/login
+          filters:
+            - RewritePath=/api(?<segment>/?.*), $\{segment}
+        #政策的路由
+        - id: ky_policy
+          uri: lb://ky-policy
+          predicates:
+            - Path=/api/policy/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*), $\{segment}
+#            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+        #学校的路由
+        - id: ky_college
+          uri: lb://ky-college
+          predicates:
+            - Path=/api/college/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*), $\{segment}
+        # 讨论区的路由
+        - id: ky_doubt
+          uri: lb://ky-doubt
+          predicates:
+            - Path=/api/doubt/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*), $\{segment}
+        # 用户的路由
+        - id: ky_person
+          uri: lb://ky-person
+          predicates:
+            - Path=/api/person/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*), $\{segment}
+        # 学习资源的路由
+        - id: ky_study
+          uri: lb://ky-study
+          predicates:
+            - Path=/api/study/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*), $\{segment}
+
+        # 第三方服务的路由
+        - id: ky_third
+          uri: lb://ky-third
+          predicates:
+            - Path=/api/third/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*), $\{segment}
+            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+  redis:
+    host: 127.0.0.1 #192.168.56.10
+    port: 6379
+
+
+
+
+

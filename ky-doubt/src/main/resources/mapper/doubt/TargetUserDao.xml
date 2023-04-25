@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sicnu.doubt.dao.TargetUserDao">
+
+    <resultMap type="com.sicnu.doubt.entity.TargetUserEntity" id="TargetUserMap">
+        <result property="id" column="id" />
+        <result property="uid" column="uid" />
+        <result property="entityId" column="entity_id" />
+        <result property="type" column="type" />
+        <result property="liked" column="liked" />
+        <result property="collected" column="collected" />
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+</mapper>
+

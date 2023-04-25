@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="college" />
+        <module name="study" />
+        <module name="auth" />
+        <module name="ky-third" />
+        <module name="doubt" />
+        <module name="ky-common" />
+        <module name="renren-generator" />
+        <module name="ky-log" />
+        <module name="search" />
+        <module name="person" />
+        <module name="renren-fast" />
+        <module name="gateway" />
+        <module name="policy" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
+      <module name="college" options="-parameters" />
+      <module name="doubt" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="ky-log" options="-parameters" />
+      <module name="ky-third" options="-parameters" />
+      <module name="person" options="-parameters" />
+      <module name="policy" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+      <module name="search" options="-parameters" />
+      <module name="study" options="-parameters" />
+    </option>
+  </component>
+</project>

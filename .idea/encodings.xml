@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ky-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-college/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-doubt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-person/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-policy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-study/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ky-third/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator/src/main/java" charset="UTF-8" />
+  </component>
+</project>

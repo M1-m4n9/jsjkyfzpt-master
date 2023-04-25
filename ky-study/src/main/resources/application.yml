@@ -1,0 +1,45 @@
+server:
+  port: 14000
+spring:
+  datasource:
+    username: ENC(qEKDJlI2UkccA83yCuMXFQ==)
+#    password: root12345
+#    password: root
+    password: ENC(PjQRu+6X3bIjfr/ASoJwuw==)
+    url: jdbc:mysql://localhost:3306/ky_study?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  application:
+    name: ky-study
+  redis:
+#    host: 192.168.56.10
+    host: 127.0.0.1
+    port: 6379
+  main:
+    allow-bean-definition-overriding: true
+# mybatis-plus
+mybatis-plus:
+  #配置xml文件位置
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      # 配置主键自增
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.sicnu.study: debug
+
+# 生产环境中需要删除这段
+jasypt:
+  encryptor:
+    password: sicnu

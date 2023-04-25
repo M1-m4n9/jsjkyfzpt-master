@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tJBDxKfnE55AJkacwEZ
+      secret-key: 0JVNhSDJ6jVRAFD4NFTNzl52CY40gM
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
+        bucket: kyfzpt
+  application:
+    name: ky-third
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 30000

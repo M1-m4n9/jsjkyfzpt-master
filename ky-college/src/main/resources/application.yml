@@ -1,0 +1,41 @@
+server:
+  port: 9000
+
+ky:
+  key:
+    pubKeyPath: key/rsa_key.pub
+    priKeyPath: key/rsa_key
+
+#spring:
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    username: root
+    password: root
+#    password: 1234
+#    url: jdbc:mysql://192.168.56.10:3306/ky_college?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/ky_college?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  application:
+    name: ky-college
+# mybatis-plus
+mybatis-plus:
+  #配置xml文件位置
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      # 配置主键自增
+      id-type: auto
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+logging:
+  level:
+    com.sicnu.college: debug
